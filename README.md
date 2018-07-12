@@ -33,7 +33,7 @@ Type-specific resources <environment>:
 Examples:
 =====
 
-* Plan: terraform plan -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate
-* Apply: terraform apply -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate -parallelism=400  
-* Delete: terraform destroy -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate
+* Plan: ```terraform plan -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate```
+* Apply: ```terraform apply -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate -parallelism=400```  
+* Delete: ```terraform destroy -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate```
 * NOTE:  The use of parallelism (see Apply example) dramatically affects deployment speed.  By default terraform will utilize 10 parallel operations.  For large deployments this will signifigantly slow down deployment time. 
