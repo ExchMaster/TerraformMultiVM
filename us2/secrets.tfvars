@@ -1,0 +1,3 @@
+"ssh_key" = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAo8gj83eF5EByTrwoSHwEzN6IOrw7gLQbcnWGfsk66AQKh6TfttjpemlVN6O7DEGyBwai6HvkgVHrnmfhkr53aL85J2hcvHKKfyHTanwcnYbP+LYQAhrLJCWIGtOLGNq5j0T8Q8d82l2+H9Q2F1qyZqTI/6peMWmYwnhVZRwcia6HWxyMUbWR4bkcVGDiJmniejBmqbvb+VIXcDTivgnnYo7cgRMbuppw/qgSmSkZlR6t85tLFUfge3tCFjXrOdkm8WPiQk+U6nqR6sGYnweoOCauSr5vjVkYita9Wa+Hm0Qh7MaviDMKnTDMMP6/64ZMEh4zN/LCLCXXFg9S0VpdLQ== rsa-key-20170411"
+
+"windows_admin_password" = "<changeme>"
