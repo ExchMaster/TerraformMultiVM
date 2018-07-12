@@ -37,3 +37,5 @@ Examples:
 * Apply: ```terraform apply -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate -parallelism=400```  
 * Delete: ```terraform destroy -var-file=us2/environment.tfvars -var-file=us2/secrets.tfvars -state us2/terraform.tfstate```
 * NOTE:  The use of parallelism (see Apply example) dramatically affects deployment speed.  By default terraform will utilize 10 parallel operations.  For large deployments this will signifigantly slow down deployment time. 
+
+Special thanks to [Brandon](https://github.com/rohrerb) for shareing the original code, time, and knowledge to get this going as quickly as we did.
